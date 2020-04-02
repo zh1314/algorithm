@@ -6,6 +6,6 @@ function bsearch(array,low,high,target)
         return  bsearch(array, low, mid -1, target);
     } else if (array[mid]< target){
         return  bsearch(array, mid+1, high, target);
-    }ese{return mid;}
+    }else{return mid;}
         
 }
